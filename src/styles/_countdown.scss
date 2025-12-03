@@ -1,0 +1,56 @@
+@use 'variables';
+
+.countdown {
+    padding: 80px 0;
+    background-color: variables.$blue2;
+    text-align: center;
+
+    &__content {
+        padding: 40px 0;
+
+        --radius: 8px;
+        background-image: 
+            radial-gradient(var(--radius), transparent 98%,white),
+            linear-gradient(white 0 0);
+        background-repeat: 
+            round, no-repeat;
+        background-position:
+            calc(var(--radius) * -1.5) calc(var(--radius) * -1.5), 50%;
+        background-size:
+            calc(var(--radius) * 3) calc(var(--radius) * 3),
+            calc(100% - var(--radius) * 3) calc(100% - var(--radius) * 3);
+    }
+
+    &__title {
+        font-family: 'Retrow Mentho';
+        font-size: 48px;
+        color: variables.$textColorSecondary;
+        margin-bottom: 16px;
+    }
+
+    &__text {
+        font-size: 32px;
+        color: variables.$textColorTertiary;
+        font-family: 'Fredoka', sans-serif;
+    }
+
+    @media (max-width: 640px) {
+        &__title {
+            font-size: 32px;
+        }
+
+        &__text {
+            font-size: 24px;
+        }
+    }
+
+    @media (max-width: 1024px) {
+        &__title {
+            font-size: 40px;
+        }
+
+        &__text {
+            font-size: 28px;
+        }
+    }
+}
