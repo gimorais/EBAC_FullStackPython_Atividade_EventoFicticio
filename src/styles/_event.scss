@@ -103,10 +103,17 @@
     @media (max-width: 640px) {
         .container {
             display: block;
+            text-align: center;
         }
 
         &__image {
-            width: 100%;
+            width: auto;
+            display: block;
+            margin: 30px auto;
+
+            &::after, &::before {
+                display: none;
+            }
         }
 
         &__details {
