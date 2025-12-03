@@ -1,0 +1,21 @@
+@use 'variables';
+
+.divider {
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 60px 20px;
+    border-top: 10px solid variables.$blue1;
+    border-bottom: 10px solid variables.$blue2;
+
+    &__title {
+    font-family: 'Retrow Mentho';
+    font-size: 40px;
+    color: variables.$pink;
+    margin-bottom: 10px;
+    }
+
+    &__text {
+        font-size: 18px;
+        color: variables.$textColorTertiary;
+    }
+}
