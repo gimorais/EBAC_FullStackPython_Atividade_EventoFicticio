@@ -1,25 +1,25 @@
-🎉 Landing Page – Evento de Aniversário
+## 🎉 Landing Page – Evento de Aniversário
 
 Landing page criada para apresentar um evento fictício de aniversário. O projeto utiliza HTML, SCSS, JavaScript e o Parcel como bundler, e inclui animações com AOS.js e uma contagem regressiva dinâmica.
 
-🚀 Tecnologias
+## 🚀 Tecnologias
 
-HTML5
+- HTML5
 
-SCSS (Sass)
+- SCSS (Sass)
 
-JavaScript
+- JavaScript
 
-Parcel
+- Parcel
 
-AOS.js
+- AOS.js
 
-🧩 Funcionalidades
+## 🧩 Funcionalidades
 
-Contagem regressiva até a data do evento
+- Contagem regressiva até a data do evento
 
-Animações suaves ao rolar a página
+- Animações suaves ao rolar a página
 
-Seções temáticas apresentando as atrações
+- Seções temáticas apresentando as atrações
 
-Layout responsivo com SCSS modularizado
+- Layout responsivo com SCSS modularizado
